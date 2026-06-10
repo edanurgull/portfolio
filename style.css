@@ -1,0 +1,31 @@
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    color: #333333;
+    line-height: 1.6;
+    padding:20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.interests span{
+    display: inline-block;
+    background-color: #eef2f3;
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 4px 12px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 1.5rem;
+    }
+}
